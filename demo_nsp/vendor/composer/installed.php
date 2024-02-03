@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => '13d699afc5773ac3b3c676e68bf419b2c781dd75',
+        'name' => 'hoangquangthang/demo_nsp',
+        'dev' => true,
+    ),
+    'versions' => array(
+        'eftec/bladeone' => array(
+            'pretty_version' => '4.3',
+            'version' => '4.3.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../eftec/bladeone',
+            'aliases' => array(),
+            'reference' => 'fe10d52437fd939405e66e962ab1778f07935d00',
+            'dev_requirement' => false,
+        ),
+        'hoangquangthang/demo_nsp' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => '13d699afc5773ac3b3c676e68bf419b2c781dd75',
+            'dev_requirement' => false,
+        ),
+        'phroute/phroute' => array(
+            'pretty_version' => 'v2.2.0',
+            'version' => '2.2.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../phroute/phroute',
+            'aliases' => array(),
+            'reference' => 'c1893b885966a0c7b50b9239dd867fda7a312dfa',
+            'dev_requirement' => false,
+        ),
+    ),
+);
